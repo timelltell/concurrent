@@ -1,4 +1,4 @@
-package Simple
+package ProConsum
 
 import (
 	"fmt"

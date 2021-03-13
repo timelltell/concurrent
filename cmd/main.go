@@ -1,6 +1,8 @@
 package main
 
-import "Concurrent/Simple"
+import (
+	"Concurrent/PubSub"
+)
 
 func main(){
 	//Simple.Run()
@@ -8,5 +10,6 @@ func main(){
 	//Simple.Channel_run2()
 	//Simple.Channnel_run3()
 	//Simple.Wait_group()
-	Simple.Product_Consumer()
+	//ProConsum.Product_Consumer()
+	PubSub.Run()
 }
